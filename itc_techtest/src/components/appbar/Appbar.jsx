@@ -51,27 +51,27 @@ export default class Appbar extends Component {
                   <Link style={styles.links} to="/"><p className='listItem' >Home</p></Link>
                 </li>
                 <li styles={styles.listItem}>
-                  <Link style={styles.links} className='listItem' to="/about/">
+                  <Link style={styles.links} className='listItem' to="/whoweare/">
                     <p className='listItem' >Who we are</p>
                   </Link>
                 </li>
                 <li styles={styles.listItem}>
-                  <Link style={styles.links} className='listItem' to="/users/">
+                  <Link style={styles.links} className='listItem' to="/whatwedo/">
                     <p className='listItem' >What we do</p>
                   </Link>
                 </li>
                 <li styles={styles.listItem}>
-                  <Link style={styles.links} className='listItem' to="/users/">
+                  <Link style={styles.links} className='listItem' to="/vacancies/">
                     <p className='listItem' >Vacancies</p>
                   </Link>
                 </li>
                 <li styles={styles.listItem}>
-                  <Link style={styles.links} className='listItem' to="/users/">
+                  <Link style={styles.links} className='listItem' to="/news/">
                     <p className='listItem' >News</p>
                   </Link>
                 </li>
                 <li styles={styles.listItem}>
-                  <Link style={styles.links} className='listItem' to="/users/">
+                  <Link style={styles.links} className='listItem' to="/contact/">
                     <p className='listItem' >Contact Us</p>
                   </Link>
                 </li>

@@ -16,6 +16,6 @@ ___
 
 ## Contents of page
 
-Currently this page consists of one page which is style to match the ITC Job Board example.
+Currently this page consists of one page which is styled to match the ITC Job Board example.
 
 Items are not yet functional.

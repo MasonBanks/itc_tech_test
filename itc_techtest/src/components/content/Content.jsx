@@ -5,6 +5,7 @@ import Container from '@material-ui/core/Container';
 import './Content.css'
 
 import Form from '../form/Form';
+import Search from '../search/Search';
 
 export default class Content extends Component {
   render() {
@@ -41,6 +42,7 @@ export default class Content extends Component {
             To get a feeling for what it's like to work for us then please visit Who We Are or see what we've been up to with ITC News. Due to continued growth, we currently have the following vacancy:
           </div>
           <Form />
+          <Search />
         </Typography>
       </Container>
     );

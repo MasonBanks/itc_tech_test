@@ -1,9 +1,9 @@
 import React from 'react';
-// import * as Material from '@material-ui/core';
 import { BrowserRouter as Router } from 'react-router-dom'
 
 import Appbar from './components/appbar/Appbar'
 import Content from './components/content/Content'
+import Foot from './components/footer/Foot'
 
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
         <Appbar />
         <Content />
       </div>
+      <Foot />
     </ Router>
   );
 }

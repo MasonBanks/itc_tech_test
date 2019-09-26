@@ -3,12 +3,14 @@ import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom'
 
 import Appbar from './components/appbar/Appbar'
+import Content from './components/content/Content'
 
 function App() {
   return (
     <Router>
       <div className="App">
         <Appbar />
+        <Content />
       </div>
     </ Router>
   );

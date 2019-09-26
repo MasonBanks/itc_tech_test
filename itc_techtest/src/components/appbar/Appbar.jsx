@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import AppBar from '@material-ui/core/AppBar';
-import { Route, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import './Appbar.css'
 import logo from '../../media/logo192.png'
@@ -34,7 +34,7 @@ export default class Appbar extends Component {
         display: 'flex',
         justifyContent: 'space-around',
         flexFlow: 'row',
-        width: '1000px',
+        width: '750px',
       },
       listItem: {
 
